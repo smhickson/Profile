@@ -4,6 +4,7 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
 }
+
 span{
   text-decoration: underline;
 }
@@ -11,8 +12,9 @@ span{
 hr {
   border-bottom: none;
   border: dotted #EAF6F6;
-  width: 5%;
+  width: 4%;
   margin: 100px auto;
+  align-items: center;
 }
 
 h1 {
@@ -72,8 +74,6 @@ margin: 100px 0;
 .bottom-container {
   background-color: #66BFBF;
   padding: 50px 0 20px;
-
-
 }
 
 .skill-row{
@@ -97,6 +97,11 @@ margin: 100px 0;
   top: 40px;
 }
 
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
 .bottom-cloud {
   position: absolute;
   left: 250px;
@@ -114,7 +119,8 @@ width: 25%;
 float:right;
 margin-left: 30px;
 }
-.contact-me{
+
+.contact-me {
   width: 40%;
   margin: 40px auto 60px;
 }
